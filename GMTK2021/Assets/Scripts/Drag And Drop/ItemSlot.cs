@@ -10,12 +10,12 @@ public class ItemSlot : MonoBehaviour, IDropHandler
     private Image thisImage;
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("Drop");
         if( eventData.pointerDrag.name == desiredName )
         {
             thisImage = GetComponent<Image>();
             thisImage.sprite = eventData.pointerDrag.GetComponent<Image>().sprite;
             thisImage.SetNativeSize();
+            CinemachineShake.Instance.ShakeCamera (10, 0.1f);
             eventData.pointerDrag.SetActive(false);
             //thisRect = GetComponent<RectTransform>();
             //otherRect = eventData.pointerDrag.GetComponent<RectTransform>();
