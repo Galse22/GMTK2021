@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: cc4c618b58e70954ea104a3a2a3f3aec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8698052386625702190
+    second: controller
+  - first:
+      213: -1149495301357687320
+    second: NLeftC
+  - first:
+      213: 4635127617591457935
+    second: NMidC
+  - first:
+      213: 3661011995061161920
+    second: NThumb
+  - first:
+      213: -5303026619938626902
+    second: RLeftC
+  - first:
+      213: 7212398445115312078
+    second: RMidC
+  - first:
+      213: -6567504035495858386
+    second: RThumb
+  - first:
+      213: -2312258741484701990
+    second: controller
+  - first:
+      213: 8687480289558333527
+    second: NLeftC
+  - first:
+      213: -5391280841743461330
+    second: NMidC
+  - first:
+      213: 3803521063435717526
+    second: NThumb
+  - first:
+      213: -1103846301235449700
+    second: RLeftC
+  - first:
+      213: 338444244967135491
+    second: RMidC
+  - first:
+      213: -3757344595589992710
+    second: RThumb
+  - first:
+      213: -2312258741484701990
+    second: Controller
+  - first:
+      213: 8687480289558333527
+    second: NMidC
+  - first:
+      213: -5391280841743461330
+    second: RMidC
+  - first:
+      213: 3803521063435717526
+    second: NLeftC
+  - first:
+      213: -1103846301235449700
+    second: NThumb
+  - first:
+      213: 338444244967135491
+    second: RLeftC
+  - first:
+      213: -3757344595589992710
+    second: RThumb
+  - first:
+      213: 8698052386625702190
+    second: Controller-SV4_0
+  - first:
+      213: 8687480289558333527
+    second: Controller-SV4_1
+  - first:
+      213: -5391280841743461330
+    second: Controller-SV4_2
+  - first:
+      213: 3803521063435717526
+    second: Controller-SV4_3
+  - first:
+      213: -1103846301235449700
+    second: Controller-SV4_4
+  - first:
+      213: 338444244967135491
+    second: Controller-SV4_5
+  - first:
+      213: -3757344595589992710
+    second: Controller-SV4_6
+  - first:
+      213: -2312258741484701990
+    second: Controller-SV4_0
+  - first:
+      213: -1149495301357687320
+    second: Controller-SV4_1
+  - first:
+      213: 4635127617591457935
+    second: Controller-SV4_2
+  - first:
+      213: 3661011995061161920
+    second: Controller-SV4_3
+  - first:
+      213: -5303026619938626902
+    second: Controller-SV4_4
+  - first:
+      213: 7212398445115312078
+    second: Controller-SV4_5
+  - first:
+      213: -6567504035495858386
+    second: Controller-SV4_6
+  - first:
+      213: 3343891920036992778
+    second: Controller-SV4_7
+  - first:
+      213: -6160819136429444757
+    second: DTEST_0
+  - first:
+      213: 4981997737439962913
+    second: DTEST_1
+  - first:
+      213: -3776895173775180779
+    second: DTEST_2
+  - first:
+      213: 3953322995522225975
+    second: DTEST_3
+  - first:
+      213: -4602293763498798511
+    second: DTEST_4
+  - first:
+      213: 5351476144823760445
+    second: DTEST_5
+  - first:
+      213: -8341087001409491735
+    second: DTEST_6
+  - first:
+      213: -9187601750055819949
+    second: DTEST_7
+  - first:
+      213: 6511314583223872875
+    second: DTEST_8
+  - first:
+      213: -5543513523740954874
+    second: DTEST_9
+  - first:
+      213: -8957410481278197138
+    second: DTEST_10
+  - first:
+      213: 430257690013179646
+    second: DTEST_11
+  - first:
+      213: -5350813094284844508
+    second: DTEST_12
+  - first:
+      213: -4839261887795770319
+    second: DTEST_13
+  - first:
+      213: -4356974283273098125
+    second: DTEST_14
+  - first:
+      213: -232985319253211226
+    second: DTEST_15
+  - first:
+      213: 5616400999427803031
+    second: DTEST_16
+  - first:
+      213: 1375272737841112692
+    second: DTEST_17
+  - first:
+      213: 8716954211690633642
+    second: DTEST_18
+  - first:
+      213: -2165954340442963427
+    second: DTEST_19
+  - first:
+      213: -5287381414001141568
+    second: DTEST_20
+  - first:
+      213: 2260103200353063675
+    second: DTEST_21
+  - first:
+      213: 9107903534763122536
+    second: DTEST_22
+  - first:
+      213: -1638689291266712345
+    second: DTEST_23
+  - first:
+      213: 8177049669672353704
+    second: DTEST_24
+  - first:
+      213: -413710492455943020
+    second: DTEST_25
+  - first:
+      213: -4506590455191705259
+    second: DTEST_26
+  - first:
+      213: -8550476664731893894
+    second: DTEST_27
+  - first:
+      213: 4351104440818718846
+    second: DTEST_28
+  - first:
+      213: -5828211376381889677
+    second: DTEST_29
+  - first:
+      213: -5708496058382091207
+    second: DTEST_30
+  - first:
+      213: -1417770651521459762
+    second: DTEST_31
+  - first:
+      213: -4961734200070566244
+    second: DTEST_32
+  - first:
+      213: 9218993082742204533
+    second: DTEST_33
+  - first:
+      213: -4600873714857550022
+    second: DTEST_34
+  - first:
+      213: 4242706170718215122
+    second: DTEST_35
+  - first:
+      213: 6765665592662941715
+    second: DTEST_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DTEST_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 357
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b1b703af508aa0800000000000000
+      internalID: -6160819136429444757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DTEST_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 357
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127a8e3eb8c932540800000000000000
+      internalID: 4981997737439962913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DTEST_2
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 357
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c3e3da9d5c59bc0800000000000000
+      internalID: -3776895173775180779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DTEST_3
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 0
+        width: 357
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7374c7e91560dd630800000000000000
+      internalID: 3953322995522225975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DTEST_4
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 357
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15298a2c43e5120c0800000000000000
+      internalID: -4602293763498798511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DTEST_5
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 0
+        width: 357
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36723c4333444a40800000000000000
+      internalID: 5351476144823760445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DTEST_6
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 357
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eceb50b0918e3c80800000000000000
+      internalID: -8341087001409491735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
