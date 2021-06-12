@@ -8,6 +8,8 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 {
     public string desiredName;
     private Image thisImage;
+    public GameObject sfx;
+    public LManagerFuncs lManagerFuncs;
     public void OnDrop(PointerEventData eventData)
     {
         if( eventData.pointerDrag.name == desiredName )
@@ -15,12 +17,10 @@ public class ItemSlot : MonoBehaviour, IDropHandler
             thisImage = GetComponent<Image>();
             thisImage.sprite = eventData.pointerDrag.GetComponent<Image>().sprite;
             thisImage.SetNativeSize();
-            CinemachineShake.Instance.ShakeCamera (10, 0.1f);
+            CinemachineShake.Instance.ShakeCamera (3, 0.15f);
             eventData.pointerDrag.SetActive(false);
-            //thisRect = GetComponent<RectTransform>();
-            //otherRect = eventData.pointerDrag.GetComponent<RectTransform>();
-            //otherRect.anchoredPosition.x = thisRect.anchoredPosition.x + offset.x;
-            //otherRect.anchoredPosition.y = thisRect.anchoredPosition.y + offset.y;
+            Instantiate(sfx, Vector3.zero, Quaternion.identity);
+            lManagerFuncs.IncreaseScoreGScript();
         }
     }
 }
