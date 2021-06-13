@@ -210,9 +210,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2000
-        y: 101
+        y: 96
         width: 90
-        height: 57
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: Fish-S1_4
       rect:
         serializedVersion: 2
-        x: 2333
-        y: 116
-        width: 46
-        height: 34
+        x: 2332
+        y: 114
+        width: 48
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -34,7 +34,7 @@ public class LManagerFuncs : MonoBehaviour
         else
         {
             int i = Random.Range(1, 11);
-            if(i < 5)
+            if(i > 5)
             {
                 Instantiate(voiceLineSFX, Vector3.zero, Quaternion.identity);
             }
