@@ -20,9 +20,15 @@ public class GeneralScriptGManager : MonoBehaviour
     int score;
     Text highScoreTXT;
 
+    public float timeBtwInvoke;
+    GameObject[] interactableGOs;
+
     private void Awake() {
         previousGO = GameObject.FindWithTag("GGameManager");
-        Destroy (previousGO);
+        if(previousGO != null)
+        {
+            Destroy (previousGO);
+        }
         gameObject.tag = "GGameManager";
         DontDestroyOnLoad(this.gameObject);
         highScore = PlayerPrefs.GetInt("HighScore", 0);
@@ -48,7 +54,13 @@ public class GeneralScriptGManager : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene(1);
+                    frozen = true;
+                    Invoke("ChangeSceneInvoke", timeBtwInvoke);
+                    interactableGOs = GameObject.FindGameObjectsWithTag("Interactable");
+                    foreach(GameObject interactableGO in interactableGOs)
+                    {
+                        interactableGO.GetComponent<DragDrop>().enabled = false;
+                    }
                 }
             }
             else if(time20 > 0)
@@ -65,6 +77,12 @@ public class GeneralScriptGManager : MonoBehaviour
     public void IncreaseScore()
     {
         score++;
+    }
+
+    void ChangeSceneInvoke()
+    {
+        Destroy(GameObject.FindWithTag("GameplayM"));
+        SceneManager.LoadScene(1);
     }
 
 }

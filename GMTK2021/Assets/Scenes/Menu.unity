@@ -170,6 +170,7 @@ MonoBehaviour:
   sceneRandomizer: {fileID: 84441346}
   timerText: {fileID: 0}
   frozen: 0
+  timeBtwInvoke: 1.5
 --- !u!114 &84441346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +184,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenes: 03000000
+  musicList:
+  - {fileID: 3320861429582781609, guid: cab322c4d0a3c3f4f99c8b6408ddc778, type: 3}
+  - {fileID: 3320861429582781609, guid: 2df3566ff2c21cd4aa27208c18848b36, type: 3}
+  lastMusic: -1
+  currentMusic: 0
 --- !u!1 &228870829
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,6 +672,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070255337}
   m_CullTransparentMesh: 0
+--- !u!1001 &1115023804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781608, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320861429582781609, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
+      propertyPath: m_Name
+      value: MenuMusic
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ae3613aa21b81f047b3c07eeb1e30885, type: 3}
 --- !u!1 &1919487053
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,8 +763,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0012512, y: -124.5}
-  m_SizeDelta: {x: 799.99744, y: 116.91983}
+  m_AnchoredPosition: {x: -0, y: -129.87}
+  m_SizeDelta: {x: 742.6194, y: 106.182556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1919487055
 MonoBehaviour:
@@ -725,7 +788,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 60
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -736,7 +799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME NAME
+  m_Text: G & J ELECTRONIS REPAIR
 --- !u!222 &1919487056
 CanvasRenderer:
   m_ObjectHideFlags: 0

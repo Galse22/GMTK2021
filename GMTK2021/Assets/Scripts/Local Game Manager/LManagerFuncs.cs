@@ -11,6 +11,9 @@ public class LManagerFuncs : MonoBehaviour
     public int objsNecessary;
     int objsPut;
     public Text timerText;
+
+    public GameObject putSFX;
+    public GameObject nextLvlSFX;
     void Awake()
     {
         GGameManager = GameObject.FindWithTag("GGameManager");
@@ -25,8 +28,13 @@ public class LManagerFuncs : MonoBehaviour
         generalScriptGManager.IncreaseScore();
         if(objsPut >= objsNecessary)
         {
+            Instantiate(nextLvlSFX, Vector3.zero, Quaternion.identity);
             generalScriptGManager.frozen = true;
             sceneRandomizer.NextScene();
+        }
+        else
+        {
+            Instantiate(putSFX, Vector3.zero, Quaternion.identity);
         }
     }
 }

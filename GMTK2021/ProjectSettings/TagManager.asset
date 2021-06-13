@@ -7,6 +7,9 @@ TagManager:
   - GGameManager
   - MenuManager
   - HStxt
+  - MenuMusic
+  - GameplayM
+  - Interactable
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,6 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 {
     public string desiredName;
     private Image thisImage;
-    public GameObject sfx;
     public LManagerFuncs lManagerFuncs;
     public void OnDrop(PointerEventData eventData)
     {
@@ -19,7 +18,6 @@ public class ItemSlot : MonoBehaviour, IDropHandler
             thisImage.SetNativeSize();
             CinemachineShake.Instance.ShakeCamera (3, 0.15f);
             eventData.pointerDrag.SetActive(false);
-            Instantiate(sfx, Vector3.zero, Quaternion.identity);
             lManagerFuncs.IncreaseScoreGScript();
         }
     }

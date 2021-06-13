@@ -8,6 +8,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public Canvas canvas;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
+
+    public GameObject pickUpSfx;
     private void Awake() {
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
@@ -17,6 +19,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = false;
+        GameObject goInstantiated = Instantiate(pickUpSfx, Vector3.zero, Quaternion.identity);
+        goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.2f,1.2f);
     }
 
     // called when dragging

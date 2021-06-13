@@ -9,6 +9,10 @@ public class SceneRandomizer : MonoBehaviour
     int currentSceneIndex = 0;
     int currentSceneIndexM1;
     private int tempInt;
+
+    public GameObject[] musicList;
+    public int lastMusic = -1;
+    public int currentMusic;
     private void Awake() {
         Shuffle();
     }
@@ -22,6 +26,34 @@ public class SceneRandomizer : MonoBehaviour
 
     public void NextScene()
     {
+        Scene currentScene = SceneManager.GetActiveScene ();
+        string sceneName = currentScene.name;
+        if(sceneName == "Menu")
+        {
+            Destroy(GameObject.FindWithTag("MenuMusic"));
+            currentMusic = Random.Range(0, musicList.Length);
+            if(currentMusic != lastMusic)
+            {
+                GameObject music = Instantiate(musicList[currentMusic], Vector3.zero, Quaternion.identity);
+                DontDestroyOnLoad(music);
+                lastMusic = currentMusic;
+            }
+            else
+            {
+                if(currentMusic == 0)
+                {
+                    GameObject music = Instantiate(musicList[1], Vector3.zero, Quaternion.identity);
+                    DontDestroyOnLoad(music);
+                    lastMusic = 0;
+                }
+                else
+                {
+                    GameObject music = Instantiate(musicList[0], Vector3.zero, Quaternion.identity);
+                    DontDestroyOnLoad(music);
+                    lastMusic = currentMusic;
+                }
+            }
+        }
         currentSceneIndex++;
         currentSceneIndexM1 = currentSceneIndex -1;
         if(currentSceneIndexM1 >= 0 && currentSceneIndexM1 < scenes.Length)
