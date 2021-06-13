@@ -34,7 +34,8 @@ public class LManagerFuncs : MonoBehaviour
         }
         else
         {
-            Instantiate(putSFX, Vector3.zero, Quaternion.identity);
+            GameObject goInstantiated = Instantiate(putSFX, Vector3.zero, Quaternion.identity);
+            goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.2f,1.2f);
         }
     }
 }
