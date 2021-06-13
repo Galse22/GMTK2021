@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/4PC.unity
     guid: b03b02a22525e81468ed4e70682fb510
+  - enabled: 1
+    path: Assets/Scenes/Levels/5Toaster.unity
+    guid: b8635649b39aa9648a2407c0ba0af4fe
   m_configObjects: {}

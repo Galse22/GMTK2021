@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc3df11160e32b4fb107d08d6948609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenes: 03000000040000000500000006000000
+  scenes: 0300000004000000050000000600000007000000
   musicList:
   - {fileID: 3320861429582781609, guid: cab322c4d0a3c3f4f99c8b6408ddc778, type: 3}
   - {fileID: 3320861429582781609, guid: 2df3566ff2c21cd4aa27208c18848b36, type: 3}
@@ -434,6 +434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneRandomizer: {fileID: 0}
   buttonSFX: {fileID: 1305993994369351541, guid: ec93f2ff97312c944ae37d317e26a824, type: 3}
+  nHSsfx: {fileID: 0}
+  hssfx: 0
 --- !u!114 &321237950
 MonoBehaviour:
   m_ObjectHideFlags: 0
