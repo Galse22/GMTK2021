@@ -567,6 +567,7 @@ GameObject:
   - component: {fileID: 461703102}
   - component: {fileID: 461703104}
   - component: {fileID: 461703105}
+  - component: {fileID: 461703106}
   m_Layer: 5
   m_Name: NFan
   m_TagString: Interactable
@@ -590,7 +591,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -301, y: 95}
+  m_AnchoredPosition: {x: -391, y: 212}
   m_SizeDelta: {x: 72, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &461703102
@@ -657,6 +658,20 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &461703106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461703100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6225c7ba38a21864aabaf56d74a08227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxX: 390
+  maxY: 210
 --- !u!1 &518551634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,6 +1434,7 @@ GameObject:
   - component: {fileID: 1128052934}
   - component: {fileID: 1128052933}
   - component: {fileID: 1128052932}
+  - component: {fileID: 1128052936}
   m_Layer: 5
   m_Name: NBigPiece
   m_TagString: Interactable
@@ -1442,7 +1458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 314, y: -126}
+  m_AnchoredPosition: {x: 380, y: -164}
   m_SizeDelta: {x: 81, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1128052932
@@ -1509,6 +1525,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128052930}
   m_CullTransparentMesh: 0
+--- !u!114 &1128052936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128052930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6225c7ba38a21864aabaf56d74a08227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxX: 380
+  maxY: 160
 --- !u!1 &1130589392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,6 +2065,7 @@ GameObject:
   - component: {fileID: 1882479640}
   - component: {fileID: 1882479639}
   - component: {fileID: 1882479638}
+  - component: {fileID: 1882479642}
   m_Layer: 5
   m_Name: NMotherboard
   m_TagString: Interactable
@@ -2058,7 +2089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -301, y: -80}
+  m_AnchoredPosition: {x: -387, y: -188}
   m_SizeDelta: {x: 72, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1882479638
@@ -2125,6 +2156,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882479636}
   m_CullTransparentMesh: 0
+--- !u!114 &1882479642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882479636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6225c7ba38a21864aabaf56d74a08227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxX: 380
+  maxY: 185
 --- !u!1 &2063598034
 GameObject:
   m_ObjectHideFlags: 0

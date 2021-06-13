@@ -187,6 +187,7 @@ MonoBehaviour:
   musicList:
   - {fileID: 3320861429582781609, guid: cab322c4d0a3c3f4f99c8b6408ddc778, type: 3}
   - {fileID: 3320861429582781609, guid: 2df3566ff2c21cd4aa27208c18848b36, type: 3}
+  - {fileID: 3320861429582781609, guid: ef181b9f93fee7348a52a6a6ce77b69f, type: 3}
   lastMusic: -1
   currentMusic: 0
   buttonSFX: {fileID: 1305993994369351541, guid: ec93f2ff97312c944ae37d317e26a824, type: 3}
