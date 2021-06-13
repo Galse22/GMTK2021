@@ -425,6 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneRandomizer: {fileID: 0}
+  buttonSFX: {fileID: 1305993994369351541, guid: ec93f2ff97312c944ae37d317e26a824, type: 3}
 --- !u!1 &1668277921
 GameObject:
   m_ObjectHideFlags: 0

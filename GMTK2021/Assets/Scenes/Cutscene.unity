@@ -562,6 +562,7 @@ MonoBehaviour:
   - {fileID: 2233113180467777473, guid: fe96bd5c965c9834dac9403aa45e4e65, type: 3}
   baseImage: {fileID: 1681580360}
   sceneNumber: 1
+  buttonSFX: {fileID: 1305993994369351541, guid: ec93f2ff97312c944ae37d317e26a824, type: 3}
 --- !u!1001 &1369203997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -758,5 +759,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

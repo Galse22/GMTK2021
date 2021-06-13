@@ -20,7 +20,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         canvasGroup.blocksRaycasts = false;
         GameObject goInstantiated = Instantiate(pickUpSfx, Vector3.zero, Quaternion.identity);
-        goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.2f,1.2f);
+        goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
     }
 
     // called when dragging

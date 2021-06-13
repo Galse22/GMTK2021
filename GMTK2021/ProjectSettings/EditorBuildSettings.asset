@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/1Controller.unity
     guid: e759cc80283006744be2ea686e448154
+  - enabled: 1
+    path: Assets/Scenes/Levels/2Fish.unity
+    guid: ee7444087c485e5408bfe42594146a1c
   m_configObjects: {}

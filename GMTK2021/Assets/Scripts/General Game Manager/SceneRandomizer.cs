@@ -13,6 +13,8 @@ public class SceneRandomizer : MonoBehaviour
     public GameObject[] musicList;
     public int lastMusic = -1;
     public int currentMusic;
+
+    public GameObject buttonSFX;
     private void Awake() {
         Shuffle();
     }
@@ -31,6 +33,8 @@ public class SceneRandomizer : MonoBehaviour
         if(sceneName == "Menu")
         {
             Destroy(GameObject.FindWithTag("MenuMusic"));
+            GameObject goInstantiated = Instantiate(buttonSFX, Vector3.zero, Quaternion.identity);
+            goInstantiated.GetComponent<AudioSource>().pitch = Random.Range(0.2f, 1.4f);
             currentMusic = Random.Range(0, musicList.Length);
             if(currentMusic != lastMusic)
             {
