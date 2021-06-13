@@ -1492,6 +1492,7 @@ MonoBehaviour:
   timerText: {fileID: 767876420}
   putSFX: {fileID: 1305993994369351541, guid: 0e5590c5444c61141b802a2164200a7e, type: 3}
   nextLvlSFX: {fileID: 1305993994369351541, guid: 87cb7f33180eeaa45a5d8aacebd44751, type: 3}
+  voiceLineSFX: {fileID: 1305993994369351541, guid: 4cca17c3113d87d47bc253de215444b0, type: 3}
 --- !u!1 &1265519512
 GameObject:
   m_ObjectHideFlags: 0

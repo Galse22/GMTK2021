@@ -23,10 +23,14 @@ public class GeneralScriptGManager : MonoBehaviour
     public float timeBtwInvoke;
     GameObject[] interactableGOs;
 
+    SceneRandomizer lastSceneRandomizer;
+
     private void Awake() {
         previousGO = GameObject.FindWithTag("GGameManager");
         if(previousGO != null)
         {
+            lastSceneRandomizer = previousGO.GetComponent<SceneRandomizer>();
+            sceneRandomizer.lastMusic = lastSceneRandomizer.lastMusic; 
             Destroy (previousGO);
         }
         gameObject.tag = "GGameManager";

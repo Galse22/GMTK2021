@@ -14,6 +14,8 @@ public class LManagerFuncs : MonoBehaviour
 
     public GameObject putSFX;
     public GameObject nextLvlSFX;
+
+    public GameObject voiceLineSFX;
     void Awake()
     {
         GGameManager = GameObject.FindWithTag("GGameManager");
@@ -21,6 +23,10 @@ public class LManagerFuncs : MonoBehaviour
         sceneRandomizer = GGameManager.GetComponent<SceneRandomizer>();
         generalScriptGManager.timerText = timerText;
         generalScriptGManager.frozen = false;
+    }
+
+    private void Start() {
+        Instantiate(voiceLineSFX, Vector3.zero, Quaternion.identity);
     }
     public void IncreaseScoreGScript()
     {
