@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/3Tablet.unity
     guid: 3de7545adda70f9428c3f12e78d10e52
+  - enabled: 1
+    path: Assets/Scenes/Levels/4PC.unity
+    guid: b03b02a22525e81468ed4e70682fb510
   m_configObjects: {}

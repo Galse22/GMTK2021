@@ -7,6 +7,15 @@ public class MenuManagerS : MonoBehaviour
 {
     public SceneRandomizer sceneRandomizer;
     public GameObject buttonSFX;
+    public GameObject nHSsfx;
+    public bool hssfx;
+
+    private void Start() {
+        if(hssfx)
+        {
+            Instantiate(nHSsfx, Vector3.zero, Quaternion.identity);
+        }
+    }
     public void TransitionToScene(int i)
     {
         GameObject goInstantiated = Instantiate(buttonSFX, Vector3.zero, Quaternion.identity);
