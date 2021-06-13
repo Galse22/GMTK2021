@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneRandomizer: {fileID: 84441346}
   timerText: {fileID: 0}
-  frozen: 0
+  frozen: 1
   timeBtwInvoke: 1.5
 --- !u!114 &84441346
 MonoBehaviour:
@@ -788,7 +788,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 70
+    m_FontSize: 69
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -799,7 +799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: G & J ELECTRONIS REPAIR
+  m_Text: G & J ELECTRONICS REPAIR
 --- !u!222 &1919487056
 CanvasRenderer:
   m_ObjectHideFlags: 0

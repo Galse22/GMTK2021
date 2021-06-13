@@ -61,6 +61,10 @@ public class GeneralScriptGManager : MonoBehaviour
                     {
                         interactableGO.GetComponent<DragDrop>().enabled = false;
                     }
+                    if(timerText != null)
+                    {
+                        timerText.text = "SCORE: " + score;
+                    }
                 }
             }
             else if(time20 > 0)
