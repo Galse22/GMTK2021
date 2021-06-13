@@ -16,6 +16,7 @@ public class LManagerFuncs : MonoBehaviour
     public GameObject nextLvlSFX;
 
     public GameObject voiceLineSFX;
+    public bool alwaysPlay;
     void Awake()
     {
         GGameManager = GameObject.FindWithTag("GGameManager");
@@ -26,7 +27,18 @@ public class LManagerFuncs : MonoBehaviour
     }
 
     private void Start() {
-        Instantiate(voiceLineSFX, Vector3.zero, Quaternion.identity);
+        if(alwaysPlay == true)
+        {
+            Instantiate(voiceLineSFX, Vector3.zero, Quaternion.identity);
+        }
+        else
+        {
+            int i = Random.Range(1, 11);
+            if(i < 5)
+            {
+                Instantiate(voiceLineSFX, Vector3.zero, Quaternion.identity);
+            }
+        }
     }
     public void IncreaseScoreGScript()
     {

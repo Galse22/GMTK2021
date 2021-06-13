@@ -1,115 +1,49 @@
 fileFormatVersion: 2
-guid: ac4f28fa3032d8347bb22fc767ca0175
+guid: 08ffa002384878b458ee70f724b176d9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8698052386625702190
-    second: controller
+      213: 2412762110226716520
+    second: Tablet
   - first:
-      213: -1149495301357687320
-    second: NLeftC
+      213: -4227672926275554129
+    second: NMotherboard
   - first:
-      213: 4635127617591457935
-    second: NMidC
+      213: 374977509557412301
+    second: NResistor
   - first:
-      213: 3661011995061161920
-    second: NThumb
+      213: 7739846473186320761
+    second: NBattery
   - first:
-      213: -5303026619938626902
-    second: RLeftC
+      213: 8992205114626180348
+    second: RMotherboard
   - first:
-      213: 7212398445115312078
-    second: RMidC
+      213: -9039749871888545223
+    second: RResistor
   - first:
-      213: -6567504035495858386
-    second: RThumb
+      213: 2619012141411128806
+    second: RBattery
   - first:
-      213: -2312258741484701990
-    second: controller
+      213: -1411573160527001565
+    second: Tablet
   - first:
-      213: 8687480289558333527
-    second: NLeftC
+      213: 5111824172422266264
+    second: NMotherboard
   - first:
-      213: -5391280841743461330
-    second: NMidC
+      213: -237978189902516546
+    second: NResistor
   - first:
-      213: 3803521063435717526
-    second: NThumb
+      213: 6170302452911210907
+    second: NBattery
   - first:
-      213: -1103846301235449700
-    second: RLeftC
+      213: -845180466869936854
+    second: RMotherboard
   - first:
-      213: 338444244967135491
-    second: RMidC
+      213: 6317980295787546889
+    second: RResistor
   - first:
-      213: -3757344595589992710
-    second: RThumb
-  - first:
-      213: -2312258741484701990
-    second: Controller
-  - first:
-      213: 8687480289558333527
-    second: NMidC
-  - first:
-      213: -5391280841743461330
-    second: RMidC
-  - first:
-      213: 3803521063435717526
-    second: NLeftC
-  - first:
-      213: -1103846301235449700
-    second: NThumb
-  - first:
-      213: 338444244967135491
-    second: RLeftC
-  - first:
-      213: -3757344595589992710
-    second: RThumb
-  - first:
-      213: 8698052386625702190
-    second: Controller-SV4_0
-  - first:
-      213: 8687480289558333527
-    second: Controller-SV4_1
-  - first:
-      213: -5391280841743461330
-    second: Controller-SV4_2
-  - first:
-      213: 3803521063435717526
-    second: Controller-SV4_3
-  - first:
-      213: -1103846301235449700
-    second: Controller-SV4_4
-  - first:
-      213: 338444244967135491
-    second: Controller-SV4_5
-  - first:
-      213: -3757344595589992710
-    second: Controller-SV4_6
-  - first:
-      213: -2312258741484701990
-    second: Controller-SV4_0
-  - first:
-      213: -1149495301357687320
-    second: Controller-SV4_1
-  - first:
-      213: 4635127617591457935
-    second: Controller-SV4_2
-  - first:
-      213: 3661011995061161920
-    second: Controller-SV4_3
-  - first:
-      213: -5303026619938626902
-    second: Controller-SV4_4
-  - first:
-      213: 7212398445115312078
-    second: Controller-SV4_5
-  - first:
-      213: -6567504035495858386
-    second: Controller-SV4_6
-  - first:
-      213: 3343891920036992778
-    second: Controller-SV4_7
+      213: -4508105522504254792
+    second: RBattery
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -209,148 +143,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Controller-SV4_0
+      name: Tablet
       rect:
         serializedVersion: 2
-        x: 15
-        y: 23
-        width: 325
-        height: 188
+        x: 0
+        y: 0
+        width: 384
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad6330dece439efd0800000000000000
-      internalID: -2312258741484701990
+      spriteID: 328005870b5196ce0800000000000000
+      internalID: -1411573160527001565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controller-SV4_1
+      name: NMotherboard
       rect:
         serializedVersion: 2
-        x: 868
-        y: 149
-        width: 45
-        height: 58
+        x: 384
+        y: 0
+        width: 384
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ed289b1d1c2c00f0800000000000000
-      internalID: -1149495301357687320
+      spriteID: 89dfb7f4009d0f640800000000000000
+      internalID: 5111824172422266264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controller-SV4_2
+      name: NResistor
       rect:
         serializedVersion: 2
-        x: 1939
-        y: 150
-        width: 46
-        height: 57
+        x: 768
+        y: 0
+        width: 384
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f88342f9208435040800000000000000
-      internalID: 4635127617591457935
+      spriteID: ebee19ed81882bcf0800000000000000
+      internalID: -237978189902516546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controller-SV4_3
+      name: NBattery
       rect:
         serializedVersion: 2
-        x: 371
-        y: 23
-        width: 116
-        height: 125
+        x: 1152
+        y: 0
+        width: 384
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf801c33078ec230800000000000000
-      internalID: 3661011995061161920
+      spriteID: b918e76a36151a550800000000000000
+      internalID: 6170302452911210907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controller-SV4_4
+      name: RMotherboard
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 112
-        width: 38
-        height: 32
+        x: 1536
+        y: 0
+        width: 384
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa22e14c26dd766b0800000000000000
-      internalID: -5303026619938626902
+      spriteID: a2d5e15e7d05544f0800000000000000
+      internalID: -845180466869936854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controller-SV4_5
+      name: RResistor
       rect:
         serializedVersion: 2
-        x: 1431
-        y: 15
-        width: 135
-        height: 143
+        x: 1920
+        y: 0
+        width: 384
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec78da34c26971460800000000000000
-      internalID: 7212398445115312078
+      spriteID: 909855cda99fda750800000000000000
+      internalID: 6317980295787546889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controller-SV4_6
+      name: RBattery
       rect:
         serializedVersion: 2
-        x: 2268
-        y: 110
-        width: 39
-        height: 34
+        x: 2304
+        y: 0
+        width: 384
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2f235730e98bd4a0800000000000000
-      internalID: -6567504035495858386
+      spriteID: 8ba382989edff61c0800000000000000
+      internalID: -4508105522504254792
       vertices: []
       indices: 
       edges: []
